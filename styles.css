@@ -61,7 +61,7 @@ h1{
     color:white;
     text-decoration: none;
     font-weight: bold;
-    transition: 1s all;
+    transition: 0.5s all;
 }
 .contact-link>a::after{
     content: "";
@@ -143,6 +143,15 @@ h1{
         position: absolute;
         left:15vw;
     }
+    .contact{
+        flex-direction: column;
+        gap:2em;
+        font-size: 0.8em;
+        text-align: right;
+    }
+    .contact-link>a::after{
+        width:55px;
+    }
 }
 
 @media only screen and (min-width: 720px){
@@ -164,6 +173,16 @@ h1{
     max-width: 50%;
     padding-top:20px;
 }
+
+
+/*Name hover effects*/
+.firstname > span:hover{
+    color: white;
+}
+.lastname > span:hover{
+    color:yellow;
+}
+
 
 
 /* page 2 contents */
