@@ -169,6 +169,7 @@ h1{
     
 }
 
+
 .description{
     max-width: 50%;
     padding-top:20px;
@@ -209,6 +210,14 @@ h1{
     font-size: 1.15em;
     font-weight: bold;
 }
+.somethingmore{
+    color: white;
+    margin-bottom: 10vh;
+    position: absolute;
+    top: 95vh;
+    left: 60vw;
+    
+}
 /* page 3 contents */
 
 .projects{
@@ -218,7 +227,7 @@ h1{
     transform:translate(-50%,-50%);
     display:flex;
     gap:5vw;
-    flex-wrap: wrap;
+    flex-wrap:wrap;
     justify-content: space-evenly;
 }
 .project{
@@ -228,7 +237,7 @@ h1{
     padding: 10px;
     transition: all 1s;
     height: 10vh;
-    line-height: 2em;
+    line-height: 2.5em;
 }
 
 .project > p{
@@ -236,9 +245,14 @@ h1{
     font-weight: bold;
 }
 .project-link{
-    color:orange;
+    color:yellow;
 }
 .project:hover{
     background-color: yellow;
     color:black;
+}
+.project:hover .project-link{
+    background-color:black;
+    padding: 10px;
+    border-radius: .25em;
 }
